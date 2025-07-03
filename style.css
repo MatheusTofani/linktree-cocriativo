@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+body {
+    background-color: #F7F4EF;
+}
+
+.logo-container {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    height: calc(100vh - 240px);
+    background-color: #62492B;
+}
