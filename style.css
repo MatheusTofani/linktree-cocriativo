@@ -42,7 +42,7 @@ body {
 ul {}
 
 .listas {
-    height: calc(100vh - 240px);
+    height: auto;
     background-color: #62492B;
 
     padding: 32px;
@@ -192,4 +192,8 @@ p {
             }
         }
     }
+}
+
+.hidden {
+    display: none;
 }
